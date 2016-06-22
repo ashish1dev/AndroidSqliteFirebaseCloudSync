@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "29729620482",
+    "firebase_url": "https://testdb-fd265.firebaseio.com",
+    "project_id": "testdb-fd265",
+    "storage_bucket": "testdb-fd265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29729620482:android:a11747529f48262f",
+        "android_client_info": {
+          "package_name": "com.example.sqliteFirebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29729620482-pilref5hqtnvsbqdtja3jirfdjr4k82b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFqTdSTvpLn6ztXOhRFG18CG_HaESpQk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
