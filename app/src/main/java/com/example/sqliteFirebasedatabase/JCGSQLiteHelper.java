@@ -13,9 +13,13 @@ import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.text.DateFormat;
+import java.util.Map;
 
 public class JCGSQLiteHelper extends SQLiteOpenHelper {
 
@@ -29,7 +33,7 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
     private static final String book_AUTHOR = "author";
 
     private static final String[] COLUMNS = {book_ID, book_TITLE, book_AUTHOR};
-
+    DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
     //Firebase DB
     public static FirebaseDatabase mFirebase ;
@@ -68,38 +72,74 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
         mBooksReference.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                Book newBook = dataSnapshot.getValue(Book.class);
+               // Book newBook = dataSnapshot.getValue(Book.class);
+
+                Log.d("data",dataSnapshot.getValue().toString());
+                String key = dataSnapshot.getKey();
+                Map<String, Object> newPost = (Map<String, Object>) dataSnapshot.getValue();
+                String title = newPost.get("title").toString();
+                String author = newPost.get("author").toString();
+                String id = key;
+
+                Book newBook = new Book();
+                newBook.setId(id);
+                newBook.setTitle(title);
+                newBook.setAuthor(author);
+
                 createBook(newBook,false);
                 SqliteFirebaseDemo.refreshList();
                 Log.d("Data onChildAdded", dataSnapshot.getValue().toString());
-                //Toast.makeText(getBaseContext(), "data=" + dataSnapshot.getValue(), Toast.LENGTH_LONG).show();
+
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
                 String key = dataSnapshot.getKey();
-                Book updatedBook = dataSnapshot.getValue(Book.class);
+                Log.d("data key",key);
+                //Book updatedBook = dataSnapshot.getValue(Book.class);
+
+                Map<String, Object> newPost = (Map<String, Object>) dataSnapshot.getValue();
+                String title = newPost.get("title").toString();
+                String author = newPost.get("author").toString();
+                String id = key;
+
+                Book updatedBook = new Book();
+                updatedBook.setId(id);
+                updatedBook.setTitle(title);
+                updatedBook.setAuthor(author);
+
                 updateBook(updatedBook,false, key);
                 SqliteFirebaseDemo.refreshList();
                 Log.d("Data onChildChanged", dataSnapshot.getValue().toString());
-                //Toast.makeText(getBaseContext(), "data=" + dataSnapshot.getValue(), Toast.LENGTH_LONG).show();
+
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
                 String key = dataSnapshot.getKey();
-                Book deletedBook = dataSnapshot.getValue(Book.class);
+                //Book deletedBook = dataSnapshot.getValue(Book.class);
+
+                Map<String, Object> newPost = (Map<String, Object>) dataSnapshot.getValue();
+                String title = newPost.get("title").toString();
+                String author = newPost.get("author").toString();
+                String id = key;
+
+                Book deletedBook = new Book();
+                deletedBook.setId(id);
+                deletedBook.setTitle(title);
+                deletedBook.setAuthor(author);
+
                 deleteBook(deletedBook,false,key);
                 SqliteFirebaseDemo.refreshList();
                 Log.d("Data onChildRemoved", dataSnapshot.getValue().toString());
-                //Toast.makeText(getBaseContext(), "data=" + dataSnapshot.getValue(), Toast.LENGTH_LONG).show();
+
 
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
                 Log.d("Data onChildMoved", dataSnapshot.getValue().toString());
-                //Toast.makeText(getBaseContext(), "data=" + dataSnapshot.getValue(), Toast.LENGTH_LONG).show();
+
 
             }
 
@@ -122,13 +162,17 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
 
 
         if(toSync){
-//            book.setId(rowId);
             String key = mBooksReference.push().getKey();
             book.setId(key);
             // Push the object, it will appear in the list
+            DatabaseReference keyRef = mBooksReference.child(key);
 
-            mBooksReference.child(key + "").setValue(book);
+            Map<String, String> bookData = new HashMap<String, String>();
+            bookData.put("title",book.getTitle());
+            bookData.put("author",book.getAuthor());
+            bookData.put("createdAt", dateFormat.format(new Date()));
 
+            keyRef.setValue(bookData);
         }
         else{
             // get reference of the BookDB database
@@ -212,7 +256,16 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
 
         db.close();
         if(toSync) {
-            mBooksReference.child(book.getId() + "").setValue(book);
+
+            DatabaseReference keyRef = mBooksReference.child(book.getId() + "");
+
+            Map<String, String> bookData = new HashMap<String, String>();
+            bookData.put("title",book.getTitle());
+            bookData.put("author",book.getAuthor());
+            DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+            bookData.put("updatedAt", dateFormat.format(new Date()));
+
+            keyRef.setValue(bookData);
         }
         return i;
     }

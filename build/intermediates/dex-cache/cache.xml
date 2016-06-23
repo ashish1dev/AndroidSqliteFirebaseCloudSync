@@ -2,158 +2,158 @@
 <items version="2" >
 
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.0.2_b20ee784ace6f35e63ea4011f765bb72b4387b70/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_ebf5010cfc4a4312c4721ad22739c484999ed0f5/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_e1773e6684d350e3ad690b6e50131dea7d9e3baf/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.2_f38b2479f54781f7b02d0efba7e0244a5e3ea5c5/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.0.2_3b70ee4fb74d779bf98db7d9d44d87cfd241832f/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="557b6e3bffb9ea610350b8b571f8c5ab0d427ead">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c34534f4036c4fec1b310347b1a6133c2780584e/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.2_5c7ae98b0e9ec0f60b27a19efe32570013137fb9/classes.dex" />
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.2_dd9794bb9de0a2d6a2fda4108055a878367b1fbb/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_ba597bd9dabbabbccf4289586edf4490d4b71fc3/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_7910a7fdb4d334c48ce3a58ffceff1bffe720454/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_b42efd54ef393859da8babb3772bb382b19c93eb/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_21d5ae1b07d331a4cfde90e50f90ec9ea3570682/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_965aa0eb31daba77647cf2b9bd145daad57c1c19/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.0.2_386b7c730198fcc40e697d45e495e1e92126f9f5/classes.dex" />
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.0.2_bccaa7377124b5f80f107969755784e54773802b/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-database-0.4.0_ffc9c9b79b9e4a4ec986c7a29dbe63e3b3c7b304/classes.dex" />
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_d1bbfa2eb0bb941ba5368f1f22047bd0c04b3156/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_2679261a00e84987c68c18109abc6573a745dec1/classes.dex" />
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_a0d5cd7c0ff5e13f52e3e8f85ca267d4e9db084f/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.0.2_bef59f4ebad01d0c63affdd956a4fb9f5b7013c9/classes.dex" />
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-database-0.4.0_54d719d9be234c3bf5dc49cc013235980abd7cfa/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_ab4893c3b20ebccb087922ed274e1ead58a45c5c/classes.dex" />
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_757f7494e81d0b3574625a91cd74b547aa5d2ee7/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="7cb90c3d12e4f24befc73a3a093d8b501ccb231a">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f9e3a336f93ac6c8f5ce44cdec5c80a8c114b67d/classes.dex" />
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_b759cead18ad03399c132c3f2fabc6d589c88502/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.0.2_5519511a8bfb6482bf44e385460879e59fa23625/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3b71ce97e581daf7b699bb59b1076615d5c66ae3">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_93419c7551d562b7533fcb729c625fdfba9a11ba/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_54c22bf8c328536782310b00d29fa205f5e3fefe/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.0.2_543020457b5e65f43852eccc14326488360ef6d2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="280f8304682519f095db18284eb49430ad1be958">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_83450143fc41885f4a56e8a78aa087ea13a00d3d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_ccf021937db586d972ecc2e8390fa4025335d5f5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_a3dd66d7005b9796d3ae09c1723e347aacb86817/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_3813c0c6fc1facf7c13c789334d2d7ee96bbcde0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.2_40a7255ddfde6bfe2089e2435264cdc442d57967/classes.dex" />
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.2_fa60e12d5b12a0fac531665f741b7d89e021c990/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_a310f9bc5c081276095340c306b1d9f913be63f9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.0.2_b6abd5a1b16b691c09fcdd673897c6b7b37eace6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.0.2_825d7e2e673035f20802a8687872f7117c6672bf/classes.dex" />
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.0.2_e5abccaf05ce9c307864b2d0382effb5e7efd908/classes.dex" />
     </item>
     <item
         jar="/Users/ashish/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_956784f37ef241764d1f23be83afa1d80e197deb/classes.dex" />
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_956784f37ef241764d1f23be83afa1d80e197deb/classes.dex" />
     </item>
     <item
-        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_cbc2767724b7d3a84ee8783a4adb2fa77344f5a8/classes.dex" />
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_d6fe0ab8a75cef2407bf17d697c708dc32159fa9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.2_bbd7801ba16f74879941711cd037f9add4f2ff51/classes.dex" />
     </item>
 
 </items>

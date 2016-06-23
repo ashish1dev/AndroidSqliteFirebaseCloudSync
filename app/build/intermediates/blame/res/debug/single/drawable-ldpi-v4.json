@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
-        "source": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+        "merged": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     }
 ]
