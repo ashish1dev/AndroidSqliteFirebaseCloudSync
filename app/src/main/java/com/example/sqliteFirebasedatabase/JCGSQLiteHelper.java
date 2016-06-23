@@ -12,6 +12,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.MutableData;
+import com.google.firebase.database.Transaction;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -44,6 +46,8 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
     public static DatabaseReference mBooksReference;
     static boolean calledAlready = false;
 
+    public static DatabaseReference libraryRef;
+
     public JCGSQLiteHelper(Context context) {
         super(context, database_NAME, null, database_VERSION);
     }
@@ -75,6 +79,11 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
         mBooksReference = mDatabase.child("Books");
         mBooksReference.keepSynced(true);
         //mBooksReference.removeValue();
+
+        libraryRef = mDatabase.child("Library");
+        libraryRef.keepSynced(true);
+        //transaction example function
+        runTransactionExample(libraryRef);
 
         // Retrieve new Books as they are added to our database
         mBooksReference.addChildEventListener(new ChildEventListener() {
@@ -290,5 +299,44 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
         if (toSync){
             mBooksReference.child(book.getId() + "").removeValue();
         }
+    }
+
+    public void runTransactionExample(DatabaseReference libRef){
+
+        DatabaseReference ref = libRef.child("value");
+
+        System.out.println("ref ="+ref);
+
+        if(ref==null){
+            ref.setValue(null);
+        }
+
+
+        ref.runTransaction(new Transaction.Handler() {
+            @Override
+            public Transaction.Result doTransaction(final MutableData currentData) {
+                System.out.println("K:V = "+currentData.getKey()+":"+currentData.getValue());
+                if (currentData.getValue() == null) {
+                    currentData.setValue(1);
+                } else {
+                    currentData.setValue((Long) currentData.getValue() + 1);
+                }
+
+                return Transaction.success(currentData);
+            }
+
+
+            @Override
+            public void onComplete(DatabaseError firebaseError, boolean committed, DataSnapshot currentData) {
+                if (firebaseError != null) {
+                    System.out.println(firebaseError);
+                    System.out.println("value counter increment failed.");
+                } else {
+                    System.out.println("value counter increment succeeded.");
+                }
+            }
+        });
+
+
     }
 }

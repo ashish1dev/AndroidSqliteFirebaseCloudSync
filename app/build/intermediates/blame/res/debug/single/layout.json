@@ -104,12 +104,12 @@
         "source": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/res/merged/debug/layout/activity_add_book.xml",
-        "source": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/src/main/res/layout/activity_add_book.xml"
-    },
-    {
         "merged": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/res/merged/debug/layout/activity_add_book.xml",
+        "source": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/src/main/res/layout/activity_add_book.xml"
     },
     {
         "merged": "/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
