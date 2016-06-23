@@ -4,26 +4,26 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="5368641062845" >
+    timestamp="8439129046538" >
 
     <task
         name="javac"
-        duration="343" />
+        duration="210" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="110" />
+        duration="82" />
     <task
         name="verifier"
-        duration="29" />
+        duration="27" />
 
     <artifact
         location="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="5368641062845" >
+    <build timestamp="8439129046538" >
         <artifact
             location="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

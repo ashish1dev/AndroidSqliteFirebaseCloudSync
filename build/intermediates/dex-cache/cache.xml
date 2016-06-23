@@ -61,7 +61,7 @@
         jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="3b71ce97e581daf7b699bb59b1076615d5c66ae3">
+        sha1="fe43482276d5ca0971729022904b1b7782e786bd">
         <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_93419c7551d562b7533fcb729c625fdfba9a11ba/classes.dex" />
     </item>
     <item
@@ -82,7 +82,7 @@
         jar="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="280f8304682519f095db18284eb49430ad1be958">
+        sha1="cd03f4b95e0d0727b884c2906574113fc3befa09">
         <dex dex="/Users/ashish/AndroidStudioProjects/AndroidSqliteFirebaseCloudSync/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_83450143fc41885f4a56e8a78aa087ea13a00d3d/classes.dex" />
     </item>
     <item

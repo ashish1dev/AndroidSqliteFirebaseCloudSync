@@ -36,12 +36,13 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
     DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
     //Firebase DB
-    public static FirebaseDatabase mFirebase ;
+    public  FirebaseDatabase mFirebase ;
     // [START declare_database_ref]
-    public static DatabaseReference mDatabase;
+    public  DatabaseReference mDatabase;
     // [END declare_database_ref]
 
     public static DatabaseReference mBooksReference;
+    static boolean calledAlready = false;
 
     public JCGSQLiteHelper(Context context) {
         super(context, database_NAME, null, database_VERSION);
@@ -54,8 +55,15 @@ public class JCGSQLiteHelper extends SQLiteOpenHelper {
         db.execSQL(CREATE_BOOK_TABLE);
 
         // [START initialize_database_ref]
-        mFirebase = FirebaseDatabase.getInstance();
-        mFirebase.setPersistenceEnabled(true);
+
+        if (!calledAlready)
+        {
+            FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+
+            calledAlready = true;
+        }
+
+        mFirebase = FirebaseDatabase.getInstance();// mFirebase.setPersistenceEnabled(true);
 
         mDatabase = mFirebase.getReference();
         mDatabase.keepSynced(true);
